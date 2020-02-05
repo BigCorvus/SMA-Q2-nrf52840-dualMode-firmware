@@ -3,7 +3,7 @@ Basic firmware for the SMA-Q2 custom replacement board (v 2.x.x) based on the nR
   SPI, I2C and UART, the VDIV pin as well as the pushbutton (BCK button) have the default feather pinout.
   Uses the Adafruit nRF52 core version 0.17.0 and the feather bootloader
 
-  Features and advantages over the native watch mainboard:
+  Features and advantages over the native watch mainboard:  
   -nRF52840: use the Adafruit nrf52 Adafruit Arduino core with all its great features and active developer community  
   -FreeRTOS-Based core so most stuff is handled inside callbacks  
   -code structure makes it easy to add your own "apps"  
