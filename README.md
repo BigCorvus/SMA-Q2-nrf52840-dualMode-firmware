@@ -26,8 +26,8 @@ Basic firmware for the SMA-Q2 custom replacement board (v 2.x.x) based on the nR
    
 
 
-   So far implemented commands: "AT+DT=YYYYMMDDHHMMSS" //sent via mobile: set date and time  
-                                "AT+NO=someNotification" //sent via mobile: draw the someNotification string on a "window" on a main screen and trigger vibration pattern. Can be deleted via up button
+   So far implemented commands:  "AT+DT=YYYYMMDDHHMMSS" //sent via mobile: set date and time  
+                                "AT+NO=someNotification" //sent via mobile: draw the someNotification string on a "window" on a main screen and trigger vibration pattern. Can be deleted via up button  
                                 "AT+SE=someData" //either sent from mobile or external nRF UART sensor, will display its data within the appBLEsensors() app screen  
 
 Note: I'm including some source files of publicly available libraries in the project folder to maintain 
