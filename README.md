@@ -22,6 +22,7 @@ Basic firmware for the SMA-Q2 custom replacement board (v 2.x.x) based on the nR
   -in one version I added a normally on reed switch which can disconnect the battery if a magnet (the charging cable) is placed near it.  
    This can be useful if the device hangs and needs a reset or if the watch has to be stored for longer periods of time.  
    -issues: RF performance is worse than the original antenna/board (maybe due to close proximity of the antenna to the battery?)  
+   -https://github.com/adafruit/Adafruit_nRF52_Arduino/issues/150 sometimes central connection issues seem to occur after some reconnects
    
    
 
